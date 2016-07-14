@@ -1,6 +1,6 @@
 {
   "name": "@revolttv/errors",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shared error objects for REVOLT services",
   "main": "lib/index",
   "jsnext:main": "src/index",
@@ -44,7 +44,12 @@
     "es6-error": "^3.0.0"
   },
   "babel": {
-    "presets": ["es2015", "stage-0"],
-    "plugins": ["add-module-exports"]
+    "presets": [
+      "es2015",
+      "stage-0"
+    ],
+    "plugins": [
+      "add-module-exports"
+    ]
   }
 }
