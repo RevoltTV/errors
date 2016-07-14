@@ -21,6 +21,11 @@
     "url": "https://github.com/RevoltTV/errors/issues"
   },
   "homepage": "https://github.com/RevoltTV/errors#readme",
+  "files": [
+    "lib",
+    "src",
+    "test"
+  ],
   "devDependencies": {
     "babel-cli": "^6.10.1",
     "babel-core": "^6.10.4",
@@ -37,5 +42,9 @@
   },
   "dependencies": {
     "es6-error": "^3.0.0"
+  },
+  "babel": {
+    "presets": ["es2015", "stage-0"],
+    "plugins": ["add-module-exports"]
   }
 }
