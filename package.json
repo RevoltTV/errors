@@ -1,6 +1,6 @@
 {
   "name": "@revolttv/errors",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Shared error objects for REVOLT services",
   "main": "lib/index",
   "jsnext:main": "src/index",
